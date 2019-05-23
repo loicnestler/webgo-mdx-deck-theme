@@ -5,6 +5,9 @@
 		"name": "Loïc Nestler",
 		"url": "https://github.com/loicnestler"
 	},
+	"scripts": {
+		"start": "mdx-deck deck.mdx"
+	},
 	"license": "GPL-3.0",
 	"dependencies": {
 		"mdx-deck": "^2.3.2"
