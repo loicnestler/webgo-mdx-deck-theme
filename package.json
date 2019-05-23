@@ -1,16 +1,13 @@
 {
 	"name": "webgo-mdx-deck-theme",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": {
 		"name": "Loïc Nestler",
 		"url": "https://github.com/loicnestler"
 	},
 	"main": "index.js",
-	"license": "MIT",
-	"scripts": {
-		"start": "mdx-deck deck.mdx"
-	},
-	"dependencies": {
+	"license": "GPL-3.0",
+	"devDependencies": {
 		"mdx-deck": "^2.3.2"
 	}
 }
