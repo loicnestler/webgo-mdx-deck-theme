@@ -3,14 +3,14 @@
 
 ## Setup
 
-### 1. Install the package
-```bash
-npm install https://github.com/loicnestler/webgo-mdx-deck-theme.git
-```
-
-### 2. Initialize
+### 1. Initialize
 ```bash
 npm init && npm i mdx-deck
+```
+
+### 2. Install the theme
+```bash
+npm install https://github.com/loicnestler/webgo-mdx-deck-theme.git
 ```
 
 ### 3. Add `mdx-deck` to your `package.json`
