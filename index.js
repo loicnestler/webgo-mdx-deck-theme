@@ -8,7 +8,7 @@ export const webgo = {
 				'& > *:not(.cover)' : {
 					'&:after' : {
 						content          : '""',
-						background       : 'url(logo.svg)',
+						background       : 'url(https://www.webgo.de/assets/images/logo.svg)',
 						backgroundRepeat : 'no-repeat',
 						backgroundSize   : '100%',
 						height           : '60px',
