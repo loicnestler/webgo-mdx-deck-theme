@@ -5,9 +5,15 @@
 		"name": "Loïc Nestler",
 		"url": "https://github.com/loicnestler"
 	},
-	"main": "index.js",
+	"main": "dist/index.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "rollup -c"
+	},
 	"license": "GPL-3.0",
-	"peerDependencies": {
+	"dependencies": {
 		"mdx-deck": "^2.3.2",
 		"react": "^16.8.6"
 	}
