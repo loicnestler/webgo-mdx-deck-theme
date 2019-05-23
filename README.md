@@ -13,18 +13,18 @@ npm install https://github.com/loicnestler/webgo-mdx-deck-theme.git
 npm init && npm i mdx-deck
 ```
 
-### 3. Add to your `package.json`
+### 3. Add `mdx-deck` to your `package.json`
 ```json
 {
-   [...]
-   "scripts": {
-		"start": "mdx-deck deck.mdx"
-	}
+  [...]
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  }
 }
 ```
 
 ### 4. Create `deck.mdx`
-Create `deck.mdx` in your projects root directory and start writing content!
+Create `deck.mdx` in your projects root directory.
 
 #### 4.1 Add the `webgo` theme
 Add this line to your`deck.mdx` file:
@@ -34,7 +34,6 @@ export {webgo as theme} from 'webgo-mdx-deck-theme'
 
 ### 5. Paste in some content
 ````mdx
-export {webgo as theme} from 'webgo-mdx-deck-theme'
 
 import Cover from 'webgo-mdx-deck-theme/cover'
 
