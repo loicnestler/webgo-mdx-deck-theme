@@ -23,7 +23,6 @@ export {webgo as theme} from './theme/'
 import Cover from './theme/cover'
 
 <!-- The Cover layout is used to hide the webgo decoration on a specific slide -->
-
 <Cover>
    # This is the title of my deck
 </Cover>
